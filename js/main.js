@@ -166,6 +166,7 @@ createRestaurantHTML = (restaurant) => {
 
   const li_real = document.createElement('li');
   li_real.className = 'col-' + n;
+  li_real.setAttribute('role', 'article');
 
   const li = document.createElement('div');
   li.className = 'li-int';
