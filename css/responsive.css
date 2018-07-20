@@ -35,7 +35,7 @@
   #restaurants-list p{
     margin-left: 10%;
   }
-  #restaurants-list li h1 {
+  #restaurants-list li h3 {
     margin: 10px 10% 5px;
   }
 }
@@ -78,7 +78,7 @@
 }
 
 @media (min-width: 900px) {
-  #restaurants-list li h1 {
+  #restaurants-list li h3 {
     margin: 20px 10% 5px;
   }
   #restaurants-list li {

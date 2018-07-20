@@ -186,7 +186,7 @@ createRestaurantHTML = (restaurant) => {
   const title_link = document.createElement('a');
   title_link.tabIndex = -1;
   title_link.href = DBHelper.urlForRestaurant(restaurant);
-  const name = document.createElement('h1');
+  const name = document.createElement('h3');
   name.innerHTML = restaurant.name;
   title_link.append(name);
   li.append(title_link);
